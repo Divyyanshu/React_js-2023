@@ -7,7 +7,7 @@ function App() {
     <Fragment>
         <MyHeading/>
     <div><h1>jai shree ram </h1>
-      <p>huiffhishfih</p></div>
+      <p>hui</p></div>
       <div>
       <MyHeading/>
       </div>
