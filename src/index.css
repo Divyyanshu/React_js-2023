@@ -21,3 +21,10 @@ li , i{
     justify-content: end;
     align-items: end;
 }
+.google-img{
+    height: 100px;
+    width: 300px;
+    background-image: url('../src/ggimg.png');
+    background-position: center;
+    background-size: cover;
+}
