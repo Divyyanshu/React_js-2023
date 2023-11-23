@@ -1,17 +1,17 @@
-import React, { Fragment } from "react";
-import Bottom from "./component/Bottom";
-import MainContent from "./component/MainContent";
-import Topbar from "./component/Topbar";
-import "./index.css"
+import React from "react";
+import Navbar from "./component/Navbar/Navbar";
+import BottomSection from "./component/BottomSection/BottomSection";
+import MainSection from "./component/MainSection/MainSection";
 
-const App = () =>{
-    return(
-        <Fragment>
-        <Topbar/>
-        <MainContent/>
-        <Bottom/>
-        </Fragment>
-    )
+
+const App = () => {
+  return (
+    <div className="App">
+        <Navbar/>
+        <MainSection/>
+        <BottomSection/>
+    </div>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,8 @@
+.main-section{
+    height: 80vh;
+}
+.main-section>:nth-child(1){
+    transform: scale(0.1);
+    display: flex;
+    justify-content: center;
+}
