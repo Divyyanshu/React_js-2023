@@ -7,10 +7,27 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1.5rem 2rem 0 2rem;
 }
 .n-list>li{
     list-style: none;
-    font-size: 18px;
+    font-size: 14px;
+}
+/* DESIGN Circle */
+.outer-circle{
+    height: 2rem;
+    width: 2rem;
+    border: 1 solid black;
+    border-radius: 100%;
+    background-color: #7836ba;
+    position: relative;
+}
+.inner-text{
+    position: absolute;
+    left: 14.5px;
+    top:3.5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainSection.css'
 import Google from '../../img/ggimg.png'
+import Offerdlink from '../Offerdlinks/Offerdlink';
 
 const MainSection = () => {
   return (
@@ -21,6 +22,8 @@ const MainSection = () => {
           <button>Google Search</button>
           <button>I'm Feeling Lucky</button>
         </div>
+        {/* google offered componenet */}
+        <Offerdlink/>
       </div>
   )
 }

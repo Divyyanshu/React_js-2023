@@ -1,0 +1,16 @@
+.offerlinks{
+    display: flex;
+    gap: 10px;
+}
+.o-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+}

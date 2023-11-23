@@ -1,0 +1,24 @@
+.bottombar{
+    height: 8vh;
+    width: 100%;
+}
+.b-onebar{
+    height:2.8rem;
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    font-weight: 600;
+}
+.b-list{
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+}
